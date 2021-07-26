@@ -21,7 +21,7 @@ export const AddCategory = ({ setCategories }) => {
   return (
     <form onSubmit={handleOnSubmit}>
       <h2>Add Category</h2>
-      <input type="text" value={inputValue} onChange={handleChange} />
+      <input id="icategoria" type="text" value={inputValue} onChange={handleChange} />
     </form>
   );
 };
